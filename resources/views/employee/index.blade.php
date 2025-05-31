@@ -16,7 +16,9 @@
     <!-- Main content -->
     <div class="content">
         <div class="container-fluid">
-        <a href="{{ route('employee.create') }}" class="btn btn-info">Add New Employee</a>
+            <h1>Welcome DHVSU APALIT</h1>
+            <h1>cute siyaaaaaaaaaaaaaaa</h1>
+        <a href="{{ route('employee.create') }}" class="btn btn-info">Add New Employes Record</a>
         <div class="row">
 
        
@@ -39,6 +41,7 @@
                                 <th>Age</th>
                                 <th>Address</th>
                                 <th>Zip</th>
+                                
                             </tr>
                         </thead>
 
