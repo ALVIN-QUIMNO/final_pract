@@ -41,6 +41,8 @@
                                 <th>Age</th>
                                 <th>Address</th>
                                 <th>Zip</th>
+                                <th>status</th>
+
                                 
                             </tr>
                         </thead>
@@ -56,6 +58,7 @@
                                 <td>{{$items->age}}</td>
                                 <td>{{$items->address}}</td>
                                 <td>{{$items->zip}}</td>
+                                
                                 <td> 
                                     <span class="badge bg-success"><a href="{{  route('employee.edit', $items->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
                                 </td>
