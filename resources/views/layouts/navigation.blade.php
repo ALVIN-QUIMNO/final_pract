@@ -38,6 +38,17 @@
                 </a>
             </li>
 
+
+            
+            <li class="nav-item">
+                <a href="{{ route('classmate.index') }}" class="nav-link">
+                    <i class="nav-icon far fa-address-card"></i>
+                    <p>
+                        {{ __('classmate Management') }}
+                    </p>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a href="{{ route('about') }}" class="nav-link">
                     <i class="nav-icon far fa-address-card"></i>
@@ -60,7 +71,7 @@
                         <a href="#" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Child menu</p>
-                        </a>
+                        </a>Em
                     </li>
                 </ul>
             </li>
