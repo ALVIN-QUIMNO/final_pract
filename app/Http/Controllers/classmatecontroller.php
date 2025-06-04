@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class classmatecontroller extends Controller
 {
-       public function classmate()
+       public function index()
     {
         return view('classmate.index');
     }
